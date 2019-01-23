@@ -37,8 +37,9 @@ def generateMessage():
 
 
 while True:
-    time.sleep(600)
     toaster.show_toast("CULT CLASSES",generateMessage())
+    time.sleep(900)
+    
 
 # firstSlot = slots[0].find_element_by_class_name('available-theme')
 
